@@ -95,3 +95,46 @@ marks = {
 }
 print(marks["harry"]) 
 ------------------------------------------------------xxxxxxxxxxxxx------------------------------------
+### can we have a set with 18 (int) and 18 (str) as value in set 
+s = set()
+s.add(18)
+s.add("18")
+print(s)
+run this command in code editior to find out
+---------------------------------xxxx------------------
+#### what will be the length of this following set
+s = set()
+s.add(20)
+s.add(20.0)
+s.add("20")
+print(s)
+#### what will be answer : 2 
+##### why because : 
+20 (integer) and 20.0 (float) are treated as the same value in a set.
+
+In Python, 20 (integer) and 20.0 (float) are considered equal (20 == 20.0 → True).
+
+A set does not allow duplicate values.
+
+So, adding 20.0 after 20 does nothing because it is considered the same value.
+
+"20" (string) is a different data type from 20 (integer), so it is added separately.
+----------------------------------------------------------------------xxxxxxxxxxxxxx---------------------------------------
+
+###### make a dictionary for 4 people and give their fav langauge
+d = {}
+name = input("enter the name: ")
+lang = input("enter the language: ")
+d.update({name: lang})
+name = input("enter the name: ")
+lang = input("enter the language: ")
+d.update({name: lang})
+name = input("enter the name: ")
+lang = input("enter the language: ")
+d.update({name: lang})
+name = input("enter the name: ")
+lang = input("enter the language: ")
+d.update({name: lang})
+print(d)
+use this code in code editor
+-----------------------------------------------------------------xxxxxxxxxxxxx--------------------------------------
