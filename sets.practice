@@ -1,0 +1,42 @@
+# PythonPractice
+day 1
+##### how to use sets
+-------------------------------------------------xxxx-------------------------
+  s = set()
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+n = input("Enter number :")
+s.add(int(n))
+
+print(s)
+end 
+ To use this code you just copy and use in your code editor
+ ----------------------------------------------------------xxxxxxxx---------------------------------
+
+### how to add  and remove values in sets
+ ------------------------xxxxx------------------------------------------------------------------
+  s = {1, 12, 52, 45}
+s.add(48) # use when you want to add
+s.remove(1) # use when you want to remove
+print(s, type(s))
+-----------------------------------xxxxx-----------------------------------------------------------
+
+#### how to use union 
+--------------------------------------xxxxxxxxx------------------------------------------------------
+s1 = {1, 52, 45, 32}
+s2 = { 1, 52, 85, 96}
+print(s1.union(s2)) # this join both the set
+print(s1.intersection(s2)) # this find common value in to set
+ ------------------------------xxxxxxxx-----------------------------------------------------------------
+
+ 
