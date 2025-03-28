@@ -2,6 +2,8 @@ conditional expression in python
 if, elif, else
 
 -----------------------------------------xxxxxxxxxxxxxxxx-------------------------------
+Question: find if you are above or belwo age
+Answer: 
   a = int(input("enter you age"))
 if a>=18 :
     print("you are above the age of consent")
@@ -13,7 +15,8 @@ else:
     print("you are below the age of consent")
 print("end of program")
 -------------------------------------xxxxxxxxxxx-------------
-To find odd and even number 
+Question : To find odd and even number
+Answere :
   a = int(input("enter your age:"))
 if a % 2 == 0:
     Print("a is even")
@@ -51,6 +54,41 @@ else:
     print("you are failed, try again ", total_percentage)
 
 ---------------------------------------------------x--------xxxxxxxxxxxxxxxxxxxxxxxxxx---------------------------------------
+Question :  Find the spam message 
+Answer : 
+ p1 = "make a lot of money"
+p2 = "buy now"
+p3 = "click and get gift"
+p4 = "you are lucky"
+
+message = input("enter your message")
+
+if((p1 in message) or (p2 in message) or (p3 in message) or (p4 in message)):
+    print("this is spam message")
+
+else:
+    print("this is not spam")
+------------------------------------xxxxxxxx---------------------------------------------------------------------
+Question : find out if the given name is available in the list or not
+Answer: 
+list = ["Mohit", "Rakesh", "vikas", "kunal"]
+
+message = input("enter your name :")
+if (message in list):
+    print("you are in the list")
+
+else:
+    print("you are not in the list")
+-----------------------------------------xxxxxxxxxxxxx----------------------------------------
+Question : find out someone name is in the post it may be short letter or capital letter 
+Answer:
+post = input("enter your post : ")
+
+if("Harry".lower() in post.lower()):
+    print("This post is talking about harry")
+else:
+    print("This post is not talking about harry")
+-----------------------------------xxxxxxxxxxxx-----------------------------------------
 ########## this are the question we are trying to solve if you can solve those you should try.
 =====================================================================================
 Here are some questions related to conditional expressions in Python:  
