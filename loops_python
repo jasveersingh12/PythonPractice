@@ -48,7 +48,7 @@ while (i<45):
     print(i)
     i += 1
 --------------------------------------xxxxxxxxxxxx-----------------------------
-Question : write a table with for loops nd with while loops
+Question : This is pass statement
 Answer
 for i in range(45):
     pass
@@ -57,7 +57,17 @@ i = 0
 while (i<45):
     print(i)
     i += 1
+--------------------------------------------------xxxxxxxxxxxxxx------------------------
+Question :wrtie a table with for loop and while loops 
+Answer first statement with for loops
+n = int(input("enter the number :"))
+
+for i in range(1, 11):
+    if(f"{n} * {i} = {n*1}"):
+        print(n*i)
+
 second statement with while loops
+
 n = int(input(" enter the number :"))
 i = 1
 while (i<11):
@@ -88,4 +98,11 @@ else:
     print("number is prime")
     
 ---------------------------------------xxxxxxxxxx--------------------------------------
-Questions 
+Questions  find the factorial of number
+answer
+n = int(input("enter the number"))
+product = 1
+for i in range (1, n+1):
+    product = product*i
+
+print(f"the factorial of {n} is {product}")
