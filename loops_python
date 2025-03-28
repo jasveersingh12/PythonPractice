@@ -1,1 +1,91 @@
+we are doing some loops function and practice them in python with vs code editor
+# some time we want to repeat a set of statement in our program =  like: print(1-1000)
+# loops make it easy to run this kind of program 
+# there are two type of loops = 
+-----------------------------------xxxxxxxxxxxxxxxxxxx--------------------
+1: while loops # this is statement 
+      i = 1
+  while(i<6):
+      print(i)
+      i += 1
+------------------------------------xxxxxxxxxxxxxxxxxx---------------------------
+2: for loops # this is statement
+### with example
+for i in range(4):
+  print(i)
+output (0,1,2,3)
 
+### another example with step
+for i in range (0, 100, 4):
+  print(i)
+output (0,4,8,12,.......44 ) and so on..
+
+### another example with for loops with else
+list = (1, 48, 52, 85, 95)
+for i in list:
+    print(i)
+else:
+    print("done")
+output : 1,48,52,85,95, done
+
+### another example with breaks and continue in loops
+for i in range(100):
+    if(i == 35): # (in this condition loops will end when i = 35 so you get number till 34)
+        break
+    print(i)
+
+for i in range(100):
+    if(i == 35):
+        continue # skip the iteration ( you will not see 35 in the loops)
+    
+    print(i)
+### Pass statement : if you don't want to write code in your current question then you can switch to another queries with pass statement 
+for i in range(45):
+    pass
+
+i = 0
+while (i<45):
+    print(i)
+    i += 1
+--------------------------------------xxxxxxxxxxxx-----------------------------
+Question : write a table with for loops nd with while loops
+Answer
+for i in range(45):
+    pass
+
+i = 0
+while (i<45):
+    print(i)
+    i += 1
+second statement with while loops
+n = int(input(" enter the number :"))
+i = 1
+while (i<11):
+    print(f"{n} * {i} = {n*i}")
+    i += 1
+
+#### To use this code copy and paste in your code editor and enter the table number you want to get
+--------------------------------------------------------xxxxxxxxxxxxxxx--------------------------------
+
+Questions : greet person whose name start with s or particular letter 
+Answer 
+list = ["honi", "raj", "simran", "deepak"]
+
+for name in list:
+    if(name.startswith("r")):
+        print(f"good morning {name}")
+-----------------------------------------------xxxxxxxxxx---------------------------
+Question : find the prime number 
+answer
+n = int(input("enter the number :"))
+
+for i in range(2, n):
+    if(n%2 == 0):
+        print("number is not prime")
+        break
+
+else:
+    print("number is prime")
+    
+---------------------------------------xxxxxxxxxx--------------------------------------
+Questions 
